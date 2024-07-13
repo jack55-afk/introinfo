@@ -1,0 +1,7 @@
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+    /* Styles for screens smaller than 600px wide */
+    .container {
+        width: 100%;
+    }
+}

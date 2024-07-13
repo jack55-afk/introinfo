@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<html>
+<head>
+    <style>
+        /* Button styling */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .button:active {
+            background-color: #0056b3;
+            transform: translateY(1px);
+        }
+    </style>
+</head>
+<body>
+    <!-- Your content here -->
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content" id="footerContent">
+            
+        </div>
+    </footer>
+
+    <!-- Buttons -->
+    <a href="#" class="button" id="showButton">Click Me</a>
+    <a href="#" class="button" id="returnButton" style="display: none;">Return</a>
+
+    <!-- JavaScript -->
+    <script>
+        const showButton = document.getElementById('showButton');
+        const returnButton = document.getElementById('returnButton');
+        const footerContent = document.getElementById('footerContent');
+
+        showButton.addEventListener('click', () => {
+            footerContent.innerHTML = '<p>Document ID: [23319118]</p><p>Name: [Saito Jack Yuya]</p>';
+            showButton.style.display = 'none';
+            returnButton.style.display = 'inline-block';
+        });
+
+        returnButton.addEventListener('click', () => {
+            footerContent.innerHTML = '<p></p>';
+            showButton.style.display = 'inline-block';
+            returnButton.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>New Horizon</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />	
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" charset="utf-8" />	
+	<![endif]-->
+</head>
+
+<body>
+	<div id="header">
+		<a href="index.html" id="logo"><img src="images/Screenshot 2023-10-04 105100.png" alt="LOGO" /></a>
+		<div id="navigation">
+			<ul>
+				<li class="first"><a href="index.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li class="selected"><a href="solutions.html">Solutions</a></li>
+				<li><a href="support.html">Support</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div id="search">
+			<form action="" method="">
+				<input type="text" value="Search" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+				<input type="submit" value="" class="button" />
+			</form>
+		</div>
+	</div> <!-- /#header -->
+	<div id="contents">
+		<div class="background">
+			<div id="solutions">
+				<span>PLAN</span>
+				<p>
+					At New Horizon, we offer a comprehensive range of solutions designed to help you achieve your financial goals and secure a prosperous future. Our expert team utilizes cutting-edge strategies and personalized approaches to deliver exceptional results. Whether you are looking to grow your wealth, manage risks, or plan for retirement, we have the right solutions to meet your needs. Explore our tailored solutions and discover how we can help you achieve financial success.
+				</p>
+				<ul>
+					<li>
+						<p>
+							<b>Customized Wealth Growth Strategies</b>
+							Our wealth growth strategies are designed to maximize your financial potential through personalized investment plans. We leverage extensive market research and advanced analytics to identify high-potential opportunities. By diversifying your portfolio and actively managing your investments, we aim to deliver consistent and substantial returns. Our commitment to transparency and regular updates ensures you stay informed and confident in your wealth growth journey.
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Comprehensive Risk Mitigation Solutions</b>
+							Our risk mitigation solutions provide robust protection for your investments against market volatility. We implement sophisticated hedging techniques and insurance products to safeguard your assets. Proactive crisis management measures are in place to handle unexpected financial downturns. Our goal is to ensure the stability and security of your investments through comprehensive risk management.
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Personalized Retirement Planning</b>
+							Our retirement planning services are tailored to ensure you have a secure and comfortable future. We analyze your financial situation and goals to create a customized retirement strategy. This includes maximizing your savings, optimizing your investment returns, and planning for potential healthcare costs. Our expert guidance helps you navigate the complexities of retirement planning with confidence.
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Advanced Market Analysis and Insights</b>
+							Our market analysis solutions offer in-depth insights into market trends and economic indicators. We use predictive models to forecast market movements and identify investment opportunities. Our comprehensive research helps you make informed decisions and stay ahead of the market. With our advanced market analysis, you can confidently navigate the financial landscape.
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Expert Financial Advisory Services</b>
+							   Our financial advisory services provide expert guidance tailored to your individual needs. We offer personalized consultations to help you develop effective wealth management strategies. Our advisors specialize in creating plans that align with your financial goals and risk tolerance. With our comprehensive advisory services, you receive the support and expertise needed to achieve financial success.
+						</p>
+					</li>
+					<li>
+						<p>
+							<b>Dedicated Client Support</b>
+							Our client support services are designed to offer personalized assistance throughout your investment journey. You have 24/7 access to our online portal to monitor your investments and stay informed. We provide a range of educational resources, including workshops and webinars, to enhance your financial knowledge. Our dedicated advisors are always available to answer your questions and provide the guidance you need.
+
+
+						</p>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	</div> <!-- /#contents -->
+	<div id="footer">
+<ul class="contacts">
+			<h3>Contact Us</h3>
+			<li><span>Email</span><p>: investetf@nhorizon.com</p></li>
+			<li><span>Address</span><p>: New Horizon Investment Company
+1234 Prosperity Lane
+Finance District
+Metropolis, NY 12345
+USA</p></li>
+			<li><span>Phone</span><p>: 117-683-9187-000</p></li>
+		</ul>
+		<ul id="connect">
+			<h3>Get Updated</h3>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="http://facebook.com/freewebsitetemplates" target="_blank">Facebook</a></li>
+			<li><a href="http://twitter.com/fwtemplates" target="_blank">Twitter</a></li>
+		</ul>
+		<div id="newsletter">
+			<p><b>Sign-up for Newsletter</b>
+				Get the latest news on the how to grow your wealth today. This will be wonderful opportunity to achieve financial freedom.
+			</p>
+			<form action="" method="">
+				<input type="text" value="Name" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+				<input type="text" value="Enter Email Address" class="txtfield" onblur="javascript:if(this.value==''){this.value=this.defaultValue;}" onfocus="javascript:if(this.value==this.defaultValue){this.value='';}" />
+				<input type="submit" value="" class="button" />
+			</form>
+		</div>
+		<span class="footnote">&copy; Copyright &copy; 2011. All rights reserved</span>
+	</div> <!-- /#footer -->
+</body>
+</html>

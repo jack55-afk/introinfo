@@ -1,0 +1,14 @@
+/* Centering elements */
+.container {
+    width: 80%;
+    margin: 0 auto; /* Center horizontally */
+    text-align: center;
+}
+
+/* Center vertically and horizontally */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
